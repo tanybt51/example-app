@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
   dir:string='rtl';
+  isRtl:boolean = true;
+  do(){
+
+console.log('יהונתן אלטמן');
+
+  }
 }
